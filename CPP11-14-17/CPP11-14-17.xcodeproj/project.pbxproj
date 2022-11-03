@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD9FDEAE2913B20300459349 /* NewTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9FDEAC2913B20300459349 /* NewTypes.cpp */; };
 		ADEAD89F29124A1E0000DA27 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADEAD89E29124A1E0000DA27 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD9FDEAC2913B20300459349 /* NewTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NewTypes.cpp; sourceTree = "<group>"; };
+		AD9FDEAD2913B20300459349 /* NewTypes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NewTypes.hpp; sourceTree = "<group>"; };
 		ADEAD89B29124A1E0000DA27 /* CPP11-14-17 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP11-14-17"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEAD89E29124A1E0000DA27 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD9FDEA92913B1C300459349 /* C++11 */ = {
+			isa = PBXGroup;
+			children = (
+				AD9FDEAC2913B20300459349 /* NewTypes.cpp */,
+				AD9FDEAD2913B20300459349 /* NewTypes.hpp */,
+			);
+			path = "C++11";
+			sourceTree = "<group>";
+		};
+		AD9FDEAA2913B1CD00459349 /* C++14 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "C++14";
+			sourceTree = "<group>";
+		};
+		AD9FDEAB2913B1D800459349 /* C++17 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "C++17";
+			sourceTree = "<group>";
+		};
 		ADEAD89229124A1E0000DA27 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +83,9 @@
 		ADEAD89D29124A1E0000DA27 /* CPP11-14-17 */ = {
 			isa = PBXGroup;
 			children = (
+				AD9FDEAB2913B1D800459349 /* C++17 */,
+				AD9FDEAA2913B1CD00459349 /* C++14 */,
+				AD9FDEA92913B1C300459349 /* C++11 */,
 				ADEAD89E29124A1E0000DA27 /* main.cpp */,
 			);
 			path = "CPP11-14-17";
@@ -119,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9FDEAE2913B20300459349 /* NewTypes.cpp in Sources */,
 				ADEAD89F29124A1E0000DA27 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
