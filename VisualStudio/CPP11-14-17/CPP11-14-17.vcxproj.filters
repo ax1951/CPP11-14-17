@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CPP11">
+      <UniqueIdentifier>{cb0d9ae5-0ea5-4701-82aa-9e25765468bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPP14">
+      <UniqueIdentifier>{3bd7d969-e458-4e98-bd6a-b6b2eb714d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPP17">
+      <UniqueIdentifier>{64a7d35b-81ed-4abb-a95c-00ece4915236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CPP11">
+      <UniqueIdentifier>{86ba7ab3-1255-4283-b599-ab57048e2ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CPP14">
+      <UniqueIdentifier>{530d2185-7d5c-4d8a-880c-0c6ba1f74ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CPP17">
+      <UniqueIdentifier>{7631d961-ee9f-428b-b3a1-119adac1b2f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RValueReference.cpp">
+      <Filter>Source Files\CPP11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RValueReference.h">
+      <Filter>Header Files\CPP11</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
