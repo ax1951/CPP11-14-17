@@ -1,7 +1,7 @@
 #include "RValueReference.h"
 #include <cmath>
 #include <iostream>
-
+#include <utility>
 
 using namespace std;
 inline double f(double tf) { return 5.0 * (tf - 32.0) / 9.0; };
@@ -167,7 +167,11 @@ int testMoveConstructor() {
 int testMoveAssignmentOperator() {
     {
         Useless one(10, 'x');
-        Useless two = one; // calls copy constructor
+        Useless two = one + one; // calls move constructor
+        cout << "object one: ";
+        one.ShowData();
+        cout << "object two: ";
+        two.ShowData();
         Useless three, four;
         cout << "three = one\n";
         three = one; // automatic copy assignment
