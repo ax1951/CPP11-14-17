@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
+#include "RValueReference.h"
+
+int run_test() {
+    //testRValueReference();
+    //testMoveConstructor();
+    testMoveAssignmentOperator();
+
+    return 0;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    return run_test();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
