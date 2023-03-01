@@ -3,11 +3,13 @@
 
 #include <iostream>
 #include "RValueReference.h"
+#include "Lambda.h"
 
 int run_test() {
     //testRValueReference();
     //testMoveConstructor();
-    testMoveAssignmentOperator();
+    //testMoveAssignmentOperator();
+    testLambda();
 
     return 0;
 }
