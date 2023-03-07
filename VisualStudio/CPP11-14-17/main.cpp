@@ -9,7 +9,8 @@ int run_test() {
     //testRValueReference();
     //testMoveConstructor();
     //testMoveAssignmentOperator();
-    testLambda();
+    //testLambda();
+    testLambda2();
 
     return 0;
 }
