@@ -6,6 +6,7 @@
 #include "Lambda.h"
 #include "Wrapper.h"
 #include "variadic1.h"
+#include "ThreadLocal.h"
 
 int run_test() {
     //testRValueReference();
@@ -15,8 +16,9 @@ int run_test() {
     //testLambda2();
     //testFunctionPointerAndFunctorAndLambda();
     //testWrapper();
-    testVariadic();
+    //testVariadic();
 
+    testThreadLocal();
     return 0;
 }
 

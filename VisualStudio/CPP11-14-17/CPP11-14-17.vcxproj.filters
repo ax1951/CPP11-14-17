@@ -48,6 +48,9 @@
     <ClCompile Include="variadic1.cpp">
       <Filter>Source Files\CPP11</Filter>
     </ClCompile>
+    <ClCompile Include="ThreadLocal.cpp">
+      <Filter>Source Files\CPP11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RValueReference.h">
@@ -63,6 +66,9 @@
       <Filter>Header Files\CPP11</Filter>
     </ClInclude>
     <ClInclude Include="variadic1.h">
+      <Filter>Header Files\CPP11</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadLocal.h">
       <Filter>Header Files\CPP11</Filter>
     </ClInclude>
   </ItemGroup>

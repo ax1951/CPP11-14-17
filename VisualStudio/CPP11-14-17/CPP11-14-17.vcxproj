@@ -132,6 +132,7 @@
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RValueReference.cpp" />
+    <ClCompile Include="ThreadLocal.cpp" />
     <ClCompile Include="variadic1.cpp" />
     <ClCompile Include="Wrapper.cpp" />
   </ItemGroup>
@@ -139,6 +140,7 @@
     <ClInclude Include="Lambda.h" />
     <ClInclude Include="RValueReference.h" />
     <ClInclude Include="SomeDefs.h" />
+    <ClInclude Include="ThreadLocal.h" />
     <ClInclude Include="variadic1.h" />
     <ClInclude Include="Wrapper.h" />
   </ItemGroup>
