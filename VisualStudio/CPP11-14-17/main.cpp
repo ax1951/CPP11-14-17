@@ -4,13 +4,18 @@
 #include <iostream>
 #include "RValueReference.h"
 #include "Lambda.h"
+#include "Wrapper.h"
+#include "variadic1.h"
 
 int run_test() {
     //testRValueReference();
     //testMoveConstructor();
     //testMoveAssignmentOperator();
     //testLambda();
-    testLambda2();
+    //testLambda2();
+    //testFunctionPointerAndFunctorAndLambda();
+    //testWrapper();
+    testVariadic();
 
     return 0;
 }

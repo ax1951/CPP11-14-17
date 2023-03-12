@@ -42,12 +42,27 @@
     <ClCompile Include="Lambda.cpp">
       <Filter>Source Files\CPP11</Filter>
     </ClCompile>
+    <ClCompile Include="Wrapper.cpp">
+      <Filter>Source Files\CPP11</Filter>
+    </ClCompile>
+    <ClCompile Include="variadic1.cpp">
+      <Filter>Source Files\CPP11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RValueReference.h">
       <Filter>Header Files\CPP11</Filter>
     </ClInclude>
     <ClInclude Include="Lambda.h">
+      <Filter>Header Files\CPP11</Filter>
+    </ClInclude>
+    <ClInclude Include="SomeDefs.h">
+      <Filter>Header Files\CPP11</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrapper.h">
+      <Filter>Header Files\CPP11</Filter>
+    </ClInclude>
+    <ClInclude Include="variadic1.h">
       <Filter>Header Files\CPP11</Filter>
     </ClInclude>
   </ItemGroup>
